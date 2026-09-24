@@ -14,7 +14,7 @@ const { getWorkingProxy, markProxyBad, createProxyAgent, isProxyEnabled, isProxy
 
 const log = createLogger('Search');
 
-const BASE_URL = 'https://www.hdfilmcehennemi.ws';
+const BASE_URL = 'https://www.hdfilmcehennemi.nl';
 
 // Configuration
 const CONFIG = {
@@ -47,7 +47,7 @@ function sleep(ms) {
  * @returns {boolean}
  */
 function isHdfilmcehennemiUrl(url) {
-    return url.includes('hdfilmcehennemi.ws') || url.includes('hdfilmcehennemi.mobi');
+    return url.includes('hdfilmcehennemi.nl') || url.includes('hdfilmcehennemi.mobi');
 }
 
 /**
